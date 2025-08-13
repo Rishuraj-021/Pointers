@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a,b,diff,sum;
+cout<<"the value of a is"<<endl;
+cin>>a;
+cout<<"the value of  b is"<<endl;
+cin>>b;
+ int*aptr;
+ aptr=&a;
+ cout<<"the address  integer is"<<aptr<<endl;
+ int*bptr;
+ bptr=&b;
+ cout<<"the address  integer is"<<bptr<<endl;
+diff=aptr-bptr;
+cout<<"the difference of pointers are"<<aptr-bptr<<endl;
+ sum=*aptr+*bptr;
+    cout<<"Addition: "<<sum;
+    return 0;
+}
